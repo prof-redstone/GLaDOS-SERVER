@@ -45,7 +45,7 @@ class tts_runner:
             init_mel = init['mel_post'].to(self.device)
             init_vo = self.vocoder(init_mel)
 
-    def run_tts(self, text, alpha: float=0.7) -> AudioSegment: #alpha 1.0
+    def run_tts(self, text, alpha: float=0.8) -> AudioSegment: #alpha 1.0
         x = prepare_text(text)
 
         with torch.no_grad():

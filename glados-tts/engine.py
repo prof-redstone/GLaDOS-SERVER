@@ -13,7 +13,7 @@ print("\033[1;94mINFO:\033[;97m Initializing TTS Engine...")
 
 glados = tts_runner(False, True)
 
-def glados_tts(text, key=False, alpha=1.0):
+def glados_tts(text, key=False, alpha=0.8):
 
 	if(key):
 		output_file = ('audio/GLaDOS-tts-temp-output-'+key+'.wav')

@@ -10,17 +10,17 @@ from langchain_core.prompts import ChatPromptTemplate
 # Variable pour indiquer si le serveur doit continuer à fonctionner
 running = True
 
+subprocess.Popen(["ollama", "start"])
 def generateResponse(inputText="Hello"):
-    subprocess.Popen(["ollama", "start"])
     # Local Llama3 
     llm = ChatOllama(
         model="llama3",
         keep_alive=-1,  # keep the model loaded indefinitely
-        temperature=1.0,
+        temperature=0.8,
         max_new_tokens=512)
 
     prompt = ChatPromptTemplate.from_template(
-        "Now you are Glados the voice assistant from the game Portal, you will respond like her to the text that I am going to give you. Do not add anything except the voice text, avoid question mark, exclamation mark, dash, or quote. But you must use a lot of comma and point to give rhythm to the sentence. Your response should not exceed a maximum 30 words. Chell voice text : {textInput}")
+        "Now you are Glados the voice assistant from the game Portal, you will respond like her to the text that I am going to give you. Do not add anything except the voice text, avoid question mark, exclamation mark, dash, or quote. But you must use a lot of comma and point to give rhythm to the sentence. Your response should not exceed a maximum 30 words. Write comma for fluency. Chell voice text : {textInput}")
 
     chain = prompt | llm | StrOutputParser()
 
