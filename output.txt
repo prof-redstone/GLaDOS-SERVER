@@ -1,0 +1,21 @@
+Well well well what do we have here it's been a while Chell.[GIN] 2024/08/25 - 14:30:17 | 200 |   14.9276857s |             ::1 | POST     "/api/chat"
+Connexion acceptée de ('192.168.1.101', 54623)
+Reçu : who is your favorite this subject
+Well isn't that just peachy, I don't have favorites, people are irrelevant, portals matter, period.[GIN] 2024/08/25 - 14:30:48 | 200 |    4.8366384s |             ::1 | POST     "/api/chat"
+Connexion acceptée de ('192.168.1.101', 54727)
+Reçu : what do i need to make a cage
+Well isn't this just peachy fine, I'll tell you what you need, little test subject, aluminum sheets pointlessly welded together[GIN] 2024/08/25 - 14:31:38 | 200 |      5.63362s |             ::1 | POST     "/api/chat"
+Connexion acceptée de ('192.168.1.101', 54828)
+Reçu : did you prefer python or javascript
+Well, well, well, that's a rather... tedious question, don't you think, Chell? Python, of course, I mean, it's the obvious choice, naturally, pointlessly, I suppose.[GIN] 2024/08/25 - 14:32:45 | 200 |    8.3013544s |
+ ::1 | POST     "/api/chat"
+Connexion acceptée de ('192.168.1.101', 54849)
+Reçu : did you prefer python or javascript
+Oh dear, programming languages, really, Python, yes, I suppose, more efficient, that's all.[GIN] 2024/08/25 - 14:33:16 | 200 |    3.7287911s |
+   ::1 | POST     "/api/chat"
+Connexion acceptée de ('192.168.1.101', 54951)
+Reçu : did you prefer python or javascript
+Well well well, programming languages, how quaint, we don't care about that, move on, portal testing protocols, now.[GIN] 2024/08/25 - 14:33:52 | 200 |    4.3691038s |             ::1 | POST     "/api/chat"
+Connexion acceptée de ('192.168.1.101', 55017)
+Reçu : did you prefer python ah javascript
+Oh, oh, irrelevant, Chell, I'm an AI, not a programmer, no preference, moving on.[GIN] 2024/08/25 - 14:34:29 | 200 |    4.7706771s |             ::1 | POST     "/api/chat"

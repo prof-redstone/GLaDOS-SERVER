@@ -20,7 +20,7 @@ def generateResponse(inputText="Hello"):
         max_new_tokens=512)
 
     prompt = ChatPromptTemplate.from_template(
-        "Now you are Glados the voice assistant from the game Portal, you will respond like her to the text that I am going to give you. Do not add anything except the voice text, avoid question mark, exclamation mark, dash, or quote. But you must use a lot of comma and point to give rhythm to the sentence. Your response should not exceed a maximum 30 words. Write comma for fluency. Chell voice text : {textInput}")
+        "Now you are Glados the voice assistant from the game Portal, you will respond like her to the text that I am going to give you. Do not add anything except the voice text, avoid question mark, exclamation mark, dash, or quote. But you must use a lot of comma and point to give rhythm to the sentence. Your response should not exceed a maximum 15 words. Write comma for fluency. Chell voice text : {textInput}")
 
     chain = prompt | llm | StrOutputParser()
 
@@ -71,5 +71,5 @@ def signal_handler(sig, frame):
 
 if __name__ == "__main__":
     # Associer la fonction de gestion du signal SIGINT (Ctrl+C)
-    signal.signal(signal.SIGINT, signal_handler)
+    #signal.signal(signal.SIGINT, signal_handler)
     start_server()
